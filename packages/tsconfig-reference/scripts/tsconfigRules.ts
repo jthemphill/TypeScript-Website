@@ -134,7 +134,7 @@ export const relatedTo: [AnOption, AnOption[]][] = [
   ["esModuleInterop", ["allowSyntheticDefaultImports"]],
 
   ["out", ["outDir", "outFile"]],
-  ["outDir", ["out", "outFile"]],
+  ["outDir", ["out", "outFile", "exclude"]],
   ["outFile", ["out", "outDir"]],
 
   ["diagnostics", ["extendedDiagnostics"]],
